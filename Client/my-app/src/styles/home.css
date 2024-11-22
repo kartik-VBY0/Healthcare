@@ -1,0 +1,62 @@
+.container{
+    height: 100vh;
+   background-image: url(https://img.freepik.com/free-photo/black-brick-wall-textured-background_53876-63572.jpg?t=st=1728107569~exp=1728111169~hmac=bb17c08f43d24d44af98459698450a2ce05e44896ad6dffc8d5b2e8a10693f9d&w=996);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    margin: 0px;
+}
+h1{
+    
+    padding-top: 0px;
+    margin: 0px;
+}
+.signup,form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    gap: 10px;   
+}
+input{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    padding-left: 10px;
+}
+button{
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    background-color: black;
+    color: white;
+}
+button:hover{
+    background-color: rgb(0,0,0,0.8);
+    cursor:pointer;
+}
+input:hover{
+    border: 1px solid black;
+}
+.file{
+    border: 0px;    
+}
+.file::-webkit-file-upload-button{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 4px;
+}
+.file:hover::-webkit-file-upload-button{
+    background-color: rgb(0,0,0,0.8);
+    cursor: pointer;
+}
+.file:hover{
+    border:0px;
+}
